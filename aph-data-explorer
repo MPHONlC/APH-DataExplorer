@@ -1,0 +1,9 @@
+#!/bin/sh
+# Copyright © 2026 @APHONlC. All rights reserved.
+#
+# No copying, modification, distribution, or sale without prior written permission.
+# AI/ML ingestion and training are strictly prohibited (TDM opt-out).
+#
+# See LICENSE.md for full terms and maintenance exceptions.
+HERE=$(dirname "$(readlink -f "$0")")
+exec python3 "$HERE/main.py" "$@"
